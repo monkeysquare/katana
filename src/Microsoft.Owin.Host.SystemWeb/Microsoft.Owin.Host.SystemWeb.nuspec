@@ -1,24 +1,25 @@
-<package >
+<?xml version="1.0"?>
+<package>
   <metadata>
-    <id>$id$</id>
+    <id>$id$-mono</id>
     <version>$version$</version>
     <authors>$authors$</authors>
     <owners>$authors$</owners>
     <licenseUrl>$licenseUrl$</licenseUrl>
     <projectUrl>$projectUrl$</projectUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <title>$title$</title>
+    <title>$title$ (Mono)</title>
     <description>OWIN server that enables OWIN-based applications to run on IIS using the ASP.NET request pipeline.</description>
     <tags>$tags$</tags>
     <dependencies>
       <group targetFramework="net40">
         <dependency id="Owin" version="1.0"/>
-        <dependency id="Microsoft.Owin" version="$version$"/>
+        <dependency id="Microsoft.Owin-mono" version="$version$"/>
         <dependency id="Microsoft.Web.Infrastructure" version="1.0.0.0"/>
       </group>
       <group targetFramework="net45">
         <dependency id="Owin" version="1.0"/>
-        <dependency id="Microsoft.Owin" version="$version$"/>
+        <dependency id="Microsoft.Owin-mono" version="$version$"/>
       </group>
     </dependencies>
   </metadata>

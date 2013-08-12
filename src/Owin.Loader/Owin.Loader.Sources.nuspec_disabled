@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>$id$</id>
+    <id>$id$-mono</id>
     <version>$version$</version>
     <authors>$authors$</authors>
     <owners>$authors$</owners>

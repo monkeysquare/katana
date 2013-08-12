@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>$id$</id>
+    <id>$id$-mono</id>
     <version>$version$</version>
     <authors>$authors$</authors>
     <owners>$authors$</owners>
     <licenseUrl>$licenseUrl$</licenseUrl>
     <projectUrl>$projectUrl$</projectUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <title>$title$</title>
+    <title>$title$ (Mono)</title>
     <description>Middleware that enables an application to support Twitter's OAuth 2.0 authentication workflow.</description>
     <tags>$tags$</tags>
     <frameworkAssemblies>
@@ -16,10 +16,10 @@
       <frameworkAssembly assemblyName="System.Net.Http.WebRequest" />
     </frameworkAssemblies>
     <dependencies>
-      <dependency id="Owin" version="1.0" />
-      <dependency id="Microsoft.Owin" version="$version$" />
-      <dependency id="Newtonsoft.Json" version="4.5.11" />
-      <dependency id="Microsoft.Owin.Security" version="$version$" />
+      <dependency id="Owin" version="1.0"/>
+      <dependency id="Microsoft.Owin-mono" version="$version$"/>
+      <dependency id="Newtonsoft.Json" version="4.5.11"/>
+      <dependency id="Microsoft.Owin.Security-mono" version="$version$"/>
     </dependencies>
   </metadata>
   <files>

@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>$id$</id>
+    <id>$id$-mono</id>
     <version>$version$</version>
     <authors>$authors$</authors>
     <owners>$authors$</owners>
     <licenseUrl>$licenseUrl$</licenseUrl>
     <projectUrl>$projectUrl$</projectUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <title>$title$</title>
+    <title>$title$ (Mono)</title>
     <description>This package contains the components to enable Cross-Origin Resource Sharing (CORS) in OWIN middleware.</description>
     <tags>$tags$</tags>
     <dependencies>
-      <dependency id="Owin" version="1.0" />
-      <dependency id="Microsoft.Owin" version="$version$" />
-      <dependency id="Microsoft.AspNet.Cors" version="5.0.0$webstackSuffix$" />
+      <dependency id="Owin" version="1.0"/>
+      <dependency id="Microsoft.Owin-mono" version="$version$"/>
+      <dependency id="Microsoft.AspNet.Cors" version="5.0.0-rtm-130817" />
     </dependencies>
   </metadata>
   <files>

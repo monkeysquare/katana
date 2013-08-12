@@ -27,7 +27,7 @@ var NUGET_GALLERY_SOURCE='https://nuget.org/api/v2/'
 var NUGET_ASPNET_SOURCE='http://www.myget.org/F/aspnetwebstacknightly/'
 var NUGET_OWIN_SOURCE='http://www.myget.org/F/owin/'
 
-var NUGET_DEPLOY='http://www.myget.org/F/katana/'
+var NUGET_DEPLOY='http://www.myget.org/F/katana-mono/'
 
 log info='PROJECT: ${PROJECT}' if='PROJECT != ""'
 log info='SHIP.FULL_VERSION: ${SHIP.FULL_VERSION}'
