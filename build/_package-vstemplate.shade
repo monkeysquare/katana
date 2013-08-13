@@ -2,6 +2,7 @@ use namespace='System.Linq'
 use namespace='System.Xml.Linq'
 use namespace='System.IO.Compression'
 use assembly='System.IO.Compression.FileSystem, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL'
+use assembly='System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL'
 
 log info='Processing ${subjectFile}'
 

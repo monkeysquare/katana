@@ -73,11 +73,6 @@ namespace Microsoft.Owin
             set { Set(key, value); }
         }
 
-        /// <summary>
-        /// Throws KeyNotFoundException if the key is not present.
-        /// </summary>
-        /// <param name="key"></param>
-        /// <returns></returns>
         string[] IDictionary<string, string[]>.this[string key]
         {
             get { return Store[key]; }
@@ -93,10 +88,6 @@ namespace Microsoft.Owin
             return Store.GetEnumerator();
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
         IEnumerator IEnumerable.GetEnumerator()
         {
             return GetEnumerator();
