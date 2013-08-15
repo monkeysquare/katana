@@ -28,6 +28,8 @@ namespace Microsoft.Owin.Hosting.Tracing
     /// </summary>
     public class TraceOutputFactory : ITraceOutputFactory
     {
+        private static readonly bool IsMono = Type.GetType("Mono.Runtime") != null;
+        
         /// <summary>
         /// Opens a stream writer for the given file.
         /// </summary>
@@ -83,7 +85,14 @@ namespace Microsoft.Owin.Hosting.Tracing
                 }
                 else
                 {
-                    OutputDebugString(message ?? string.Empty);
+                    if (!IsMono)
+                    {
+                        OutputDebugString(message ?? string.Empty);
+                    }
+                    else
+                    {
+                        Debug.Write(message ?? string.Empty);
+                    }
                 }
             }
 
